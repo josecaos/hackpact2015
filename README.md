@@ -1,2 +1,2 @@
 # hackpact2015
-set of supercollider codes for hackpact 2015 hosted by LAAD
+Collection of Files made for LAAD's hackpact 2015 -> http://laad.com.mx/hackpact2015.html
