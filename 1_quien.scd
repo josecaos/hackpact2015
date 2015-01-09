@@ -1,5 +1,6 @@
 ////////////////////////////////////
-//Dia 1
+//written by @joseCao5
+//HackPact 2015 Dia 1
 //Gran boton rojo para seleccionar
 //Quien abre la puerta y no pelear
 //+ track
