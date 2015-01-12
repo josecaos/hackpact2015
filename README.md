@@ -1,6 +1,6 @@
 # hackpact2015;
 
-Coleccion de archivos para el hackpact 2015 @ LAAD -> http://laad.com.mx/hackpact2015.html
+Coleccion de codigo Supercollider, para el hackpact 2015 @ LAAD -> http://laad.com.mx/hackpact2015.html
 
 Dia 1 - Gran Boton rojo, para seleccionar a alguien para algo + tonos;
 
