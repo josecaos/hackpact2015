@@ -1,9 +1,9 @@
-////////////////////////////////////
+////////////////////////
 //written by @joseCao5
 //HackPact 2015 Dia 4
 //Esto iba a ser un
 //Requiem para el metal
-///////////////////////////////////
+////////////////////////
 s.waitForBoot{
 	(
 		SynthDef(\timbre, {|nota,trig,att,rel,del,gate|
@@ -14,7 +14,7 @@ s.waitForBoot{
 			Out.ar(0,Pan2.ar(AllpassC.ar((osc+osd)*env,0.25,del,1),[0.9,-0.8]));
 		}).add;
 	);
-// Scale.directory
+//
 	(
 		Tdef(\mods,{|i|
 			var e,tono,inter,z,rit,tiempo,del;
@@ -28,7 +28,7 @@ s.waitForBoot{
 			inf.do({
 				var x;
 				x=Synth(\timbre);
-				x.set(\att,del.resume,\rel,rit/3,\gate,1);
+				x.set(\att,del.resume,\rel,rit/11,\gate,1);
 				x.set(\nota,z.resume,\trig,rit.resume,\del,del.resume);
 				if(i==7,{i=0},{i=i+1});
 				tiempo.choose.wait;
@@ -39,5 +39,3 @@ s.waitForBoot{
 }.scope(2,0,zoom:2);
 Tdef(\mods).stop(8);
 //
-s.record;
-s.stopRecording
